@@ -234,7 +234,7 @@ h1 + p {
     right: -1%;
     bottom: 30%;
 }
-.soc{
+.social{
          position: absolute;
     right: -1%;
     bottom: 65%;
@@ -262,11 +262,14 @@ h1 + p {
 @media screen and (min-width: 1200px) {
   body {
     line-height: 2;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
   }
   section {
     border-radius: 20px;
   }
-}
+
 
 .imgLeft {
   margin-right: 20px;
@@ -313,7 +316,30 @@ iframe {
   iframe {
     height: 267px;
   }
-}
+
+.top{
+  position: absolute;
+        right: -3%;
+        bottom: 0%;
+    }
+    .calendar{
+      position: fixed;
+        top: 20px;
+        right: 15px;
+        z-index: 1000;
+        width: 2em;
+        height: 2em;
+    }
+    .social{
+      position: fixed;
+        top: 20px;
+        right: 15px;
+        z-index: 1000;
+        width: 2em;
+        height: 2em;
+    
+    }
+    }
 
 /* TABELLE */
 table {
@@ -376,7 +402,9 @@ button {
     display: inline-block;
     width: 70%;
   }
+
 }
+
 @media screen and (min-width: 700px) {
   input {
     padding: 15px;
@@ -384,8 +412,26 @@ button {
   button {
     padding: 15px 30px;
   }
+  
+}
+.calendar{
+      position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 2em;
+    height: 2em;
 }
 
+.social{
+  position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 1000;
+    height: 2em;
+    width: 2em;
+}
+}
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
   text-align: center;
