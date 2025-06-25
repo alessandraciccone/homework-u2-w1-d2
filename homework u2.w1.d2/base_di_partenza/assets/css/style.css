@@ -50,6 +50,25 @@ border-radius:0.5em;
 #soc{
    color:#3f6bca
 }
+
+.top{
+      position: absolute;
+    right: -1%;
+    bottom: 0%;
+        
+
+}
+
+.calendar{
+      position: absolute;
+    right: -1%;
+    bottom: 30%;
+}
+.social{
+         position: absolute;
+    right: -1%;
+    bottom: 65%;
+}
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
@@ -221,24 +240,7 @@ h1 + p {
   }
 
 
-.top{
-      position: absolute;
-    right: -1%;
-    bottom: 0%;
-        
 
-}
-
-.calendar{
-      position: absolute;
-    right: -1%;
-    bottom: 30%;
-}
-.social{
-         position: absolute;
-    right: -1%;
-    bottom: 65%;
-}
 }
 
 
@@ -431,7 +433,7 @@ button {
     height: 2em;
     width: 2em;
 }
-}
+
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
   text-align: center;
